@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+/front/dist
 
 # local env files
 .env.local
@@ -53,3 +53,5 @@ out/
 
 ### VS Code ###
 .vscode/
+
+/src/main/resources/static/
