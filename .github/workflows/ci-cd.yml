@@ -69,5 +69,6 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          /bin/bash app/shutdown.sh
-          /bin/bash app/startup.sh
+          cd app
+          /bin/bash shutdown.sh
+          /bin/bash startup.sh
