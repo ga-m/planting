@@ -32,7 +32,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: whoami
+        script: mkdir abc
 
     ######################
     # Build to Front-end
