@@ -55,8 +55,8 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "build/libs/planting-0.0.1-SNAPSHOT.jar"
-        target: "app/"
+        source: "build"
+        target: "app"
          
     ######################
     # Restart to application
