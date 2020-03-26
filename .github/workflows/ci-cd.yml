@@ -27,7 +27,7 @@ jobs:
     ######################
     - name: npm install, build and copy
       run: |
-        npm install --prefix front
+        npm ci --prefix front
         npm run build --prefix front
         cp -R front/dist src/main/resources/static
         
